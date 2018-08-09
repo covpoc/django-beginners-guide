@@ -29,3 +29,10 @@ class UserUpdateView(UpdateView):
 
     def get_object(self):
         return self.request.user
+
+
+
+class Unused(UpdateView):
+
+    def func(self):
+        return self.request.user
