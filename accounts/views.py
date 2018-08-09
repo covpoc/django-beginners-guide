@@ -29,3 +29,87 @@ class UserUpdateView(UpdateView):
 
     def get_object(self):
         return self.request.user
+
+
+
+class Unused(UpdateView):
+
+    def func(self):
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        form_class = UserInformationUpdateForm
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        template_name = 'my_account.html'
+        success_url = reverse_lazy('my_account')
+        return self.request.user
